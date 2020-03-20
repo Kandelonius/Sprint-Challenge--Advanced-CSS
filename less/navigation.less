@@ -1,1 +1,18 @@
 // Navigation code here
+.nav-section{
+    background-color: @nav-bg;
+    margin:3% auto;
+    border: @nav-border;
+    .flexMixin(@direction:column, @justify:space-evenly, @align:center);
+    a{
+        margin: 1% 20px;
+        font-size:2rem;
+        text-decoration:none;
+    }
+
+    h1 nav{
+        color:@nav-font;
+        width: 100%;
+        .flexMixin(@justify:space-around);
+    }
+}
