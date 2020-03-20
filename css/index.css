@@ -280,6 +280,9 @@ header {
     width: 100%;
   }
 }
+.home .walk a {
+  text-decoration: none;
+}
 .home .walk .walk-text {
   width: 50%;
 }
