@@ -1,11 +1,13 @@
 // Home Content
 header{
-  
+  font-color:@header-font-color;
 }
 .home {
 
   .intro {
-
+    img {
+      border-radius:5px;
+    }
     h2 {
       padding: 15px;
     }
@@ -59,10 +61,11 @@ header{
         margin-bottom: 26px;
       }
 
-      /*.btn {
-
-      }*/
-    }
+      button{
+        .button-specs();
+        
+        } 
+      }
 
     .walk-img {
       width: 46%;
