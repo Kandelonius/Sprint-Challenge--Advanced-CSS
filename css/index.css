@@ -1,3 +1,6 @@
+@wild-sand {
+  opacity: 0.2;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -171,8 +174,12 @@ p {
   }
 }
 .nav-section {
+  top: 0%;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
   background-color: #F6F6F6;
-  margin: 1% auto 0;
+  margin: 0 auto;
   padding: 2%;
   border: #F1F1F1;
   display: flex;
@@ -214,7 +221,13 @@ header {
   font-color: #23293B;
 }
 .home .intro img {
+  margin-top: 20%;
   border-radius: 5px;
+}
+@media (max-width:500px) {
+  .home .intro img {
+    margin-top: 25%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
